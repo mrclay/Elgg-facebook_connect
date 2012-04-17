@@ -8,10 +8,10 @@ $english = array(
 
 	'facebook_connect:requires_oauth' => 'Facebook Services requires the OAuth Libraries plugin to be enabled.',
 
-	'facebook_connect:consumer_key' => 'Application Key',
-	'facebook_connect:consumer_secret' => 'Application Secret',
+	'facebook_connect:consumer_key' => 'App Key (decimal)',
+	'facebook_connect:consumer_secret' => 'App Secret (hexadecimal)',
 
-	'facebook_connect:settings:instructions' => 'You must obtain a client id and secret from <a href="http://www.facebook.com/developers/" target="_blank">Facebook</a>. Most of the fields are self explanatory, the one piece of data you will need is the callback url which takes the form http://[yoursite]/action/facebooklogin/return - [yoursite] is the url of your Elgg network.',
+	'facebook_connect:settings:instructions' => 'You must obtain an App ID and App Secret from <a href="https://developers.facebook.com/apps/" target="_blank">Facebook</a>. Most of the fields are self explanatory, the one piece of data you will need is the callback url which takes the form http://[yoursite]/action/facebooklogin/return - [yoursite] is the url of your Elgg network.',
 
 	'facebook_connect:usersettings:description' => "Link your %s account with Facebook.",
 	'facebook_connect:usersettings:request' => "You must first <a href=\"%s\">authorize</a> %s to access your Facebook account.",
@@ -33,11 +33,11 @@ Hi %s,
 
 Congratulations! You have been successfully registered. Please visit our network here on %s %s.
 
-Your login details are-
+Your login details:
 
-Username is %s
-Email is %s
-Password is %s
+Username: %s
+E-mail  : %s
+Password: %s
 
 You can login using either email id or username.
 

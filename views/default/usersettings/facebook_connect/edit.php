@@ -25,6 +25,12 @@ else
 	$user = $facebook->api('/me', 'GET', array('access_token' => $access_token));
 	echo '<p>' . sprintf(elgg_echo('facebook_connect:usersettings:authorized'), $user['name'], $user['link']) . '</p>';
 
+    $link = elgg_view('output/url', array(
+        'href' => 'action/facebook_connect/revoke',
+        'text' => 'revoke',
+    ));
+    echo '<div></div>';
+
 	$url = elgg_get_site_url() . "facebook_connect/revoke";
 	echo '<div>' . sprintf(elgg_echo('facebook_connect:usersettings:revoke'), $url) . '</div>';
 }
