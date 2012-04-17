@@ -9,10 +9,11 @@ This is a fork of Chetan Varshney's plugin [Facebook Connect Login for Elgg 1.8]
 
 ## Setup
 
-1. Log in at http://facebook.com/
-2. Create an application and get an API key and secret number.
-3. Make sure your Facebook application has your Elgg site's URL.
-4. Log in to Elgg with an admin account and activate this plugin.
-5. Click on "Settings" and enter your Facebook application API key, secret number, and any other settings you wish.
+1. [Create a Facebook application](https://developers.facebook.com/apps/) and note your API key (decimal) and App secret (hexadecimal).
+2. Enter your site's domain name (e.g. `example.com`) in the App Domain.
+3. Under "Select how your app integrates with Facebook", select "Website" and enter your full Site URL (e.g. `http://example.com/`)
+4. Save Changes
+5. Log in to Elgg with an admin account and activate this plugin.
+6. Click on "Settings" and enter your Facebook application API key, secret number, and any other settings you wish.
 
 You should now see a Facebook login button in your login forms.
