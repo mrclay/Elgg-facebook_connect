@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
 	<name>Facebook Connect</name>
-	<author>Chetan Varshney</author>
+	<author>Chetan Varshney and Steve Clay</author>
 	<version>1.8</version>
-	<description>Facebook Connect for elgg users for let them login with facebook account</description>
+	<description>Allows registration and login through Facebook for new and existing users</description>
 	<category>service</category>
-	<category>bundled</category>
 	<website>http://www.ektasoftwares.in/</website>
-	<copyright>See COPYRIGHT.txt</copyright>
 	<license>GNU Public License version 2</license>
 	<requires>
-		<type>elgg_version</type>
-		<version>2011061200</version>
+		<type>elgg_release</type>
+		<version>1.8</version>
 	</requires>
 	<requires>
 		<type>php_extension</type>
